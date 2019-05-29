@@ -7,6 +7,8 @@ tic
 b = pCalc.Ar * U;
 time('rhs') = time('rhs') + toc;
 
+%% comment for dear author. The code does not work because matlab don't recognize pCalc.Ar.
+
 %% solve.conv, solve.rhs
 if pCalc.pLBoundary.bUseDTBC
     tic
